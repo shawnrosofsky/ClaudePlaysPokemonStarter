@@ -24,6 +24,7 @@ class Emulator:
                 rom_path,
                 cgb=True,
                 sound=sound,
+                sound_emulated=sound,
             )
 
     def tick(self, frames):
